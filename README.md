@@ -36,6 +36,7 @@ The raw table (`events`) has known problems. `sql/00_data_cleaning.sql` builds a
 
 ## Key Findings
 
+
 ### Overall funnel
 
 | Stage | Users | Conversion from previous stage |
@@ -48,11 +49,14 @@ The raw table (`events`) has known problems. `sql/00_data_cleaning.sql` builds a
 - **51.9%** of users who add to cart never buy. This is the biggest leak in the funnel, and it affects users who already showed strong purchase intent.
 
 ![Funnel counts](images/01_funnel_counts.png)
-<!-- TODO: add a screenshot of your 01 or 02 query results to an /images folder -->
+<img width="899" height="62" alt="Numbers" src="https://github.com/user-attachments/assets/c5ed77ca-f464-44f8-808e-f1eab7bebbe8" />
+
 
 ### By product category
 
-<!-- TODO: after running sql/03_by_category.sql, paste your results table here -->
+
+<img width="449" height="281" alt="image" src="https://github.com/user-attachments/assets/c0b32f75-5ddf-4821-8d27-ddc39f6e074c" />
+
 
 - **Worst cart-to-purchase conversion:** [category], at [x]%
 - **Best cart-to-purchase conversion:** [category], at [x]%
